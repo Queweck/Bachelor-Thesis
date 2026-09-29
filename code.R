@@ -83,7 +83,7 @@ find_best_model <- function(dane, dependent_var, independent_vars, continuous_va
 # 3. DATA LOADING AND PROCESSING
 # ------------------------------------------------------------------------------
 
-# Load raw datasets
+# Load raw datasets from GGS
 wave_1 <- readstata13::read.dta13("Poland_wave1.dta")
 wave_2 <- readstata13::read.dta13("Poland_wave2.dta")
 earnings <- readstata13::read.dta13("Earnings_wave1.dta")
