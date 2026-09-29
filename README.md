@@ -27,3 +27,6 @@ Identifies the target subpopulation by removing respondents who had negative fer
 6. Formatting & Reporting
 - Exports regression tables containing log-odds, standard errors, and significance stars to a production-ready HTML file (final_model_results.html) using stargazer.
 - Computes and displays Average Marginal Effects (AMEs) using the marginaleffects package, allowing for straightforward, intuitive interpretation of probabilities.
+
+# DATA
+To run this code, wave 1 and 2 of Round I of Generations and Gender Survay (GGS) for Poland from Generations and Gender Programe is necessary. Unfortunately, due to its high voulnerability and privatness, sharing this data is forbidden. However, you can easly download the data, by applying to GGP and signing some documents. It might take up to one week to get the data files. 
